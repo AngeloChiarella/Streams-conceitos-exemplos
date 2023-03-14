@@ -10,7 +10,8 @@ public class JavaForForEachStream {
 		
 //		Stream = Fluxo de dados
 //		Java 8 Streams
-		lista.stream().forEach(e -> System.out.println(e));
+//		lista.stream().forEach(e -> System.out.println(e));
+		lista.stream().forEach(System.out::println);
 
 //		Java 5
 		for (Integer integer : lista) {

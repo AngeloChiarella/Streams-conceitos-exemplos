@@ -18,7 +18,7 @@ public class OperacoesFinais {
 //			.map(e -> e * 3)
 				
 //			.forEach(e -> System.out.println(e));  ForEach - Não retorna nada, apenas um for pratico
-			
+//			.forEach(System.out::println);
 //			.count(); // count - Retorna a quantidade de itens
 			
 //			.min(Comparator.naturalOrder()); // min - Pega o MENOR valor, tem que passar um comparados nele
@@ -39,7 +39,7 @@ public class OperacoesFinais {
 //												Saida: 1;5;8;9;1;4;7;6;6;9;9
 			
 			
-		System.err.println(var);
+		System.out.println(var);
 	
 	}
 
