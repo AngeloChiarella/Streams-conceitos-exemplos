@@ -11,7 +11,7 @@ public class Reduce {
 
 	public static void main(String[] args) {
 		
-//		REDUCE - Agrupar de alguma forma (Dependendo da funcao de acumulacao), os elementos do stream
+//		REDUCE - Trabalha com objetos imutáveis. Agrupar de alguma forma (Dependendo da funcao de acumulacao), os elementos do stream
 		// accumulator - Funcao que vai ser chamada para fazer o reduce em cima da lista
 		
 		List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6);
